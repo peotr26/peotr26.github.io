@@ -1,7 +1,13 @@
-.dark {
-	color: #fff;
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #f5f5f5;
+		color: #222;
+	}
 }
 
-.light {
-	color: #000;
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+		color: #fff;
+	}
 }
