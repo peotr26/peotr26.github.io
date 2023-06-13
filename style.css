@@ -6,8 +6,14 @@
 
 @media (prefers-color-scheme: light) {
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		background-color: #fbf1c7;
+		color: #3c3836;
+	}
+	h1 {
+		color: #cc241d;
+	}
+	a {
+		color: #076678;
 	}
 }
 
