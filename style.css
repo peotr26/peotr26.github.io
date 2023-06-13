@@ -1,3 +1,9 @@
+@font-face
+{
+	font-family: Amiga4Ever;
+	src: url('https://peotr26.github.io/NSI/amiga4ever.ttf');
+}
+
 @media (prefers-color-scheme: light) {
 	body {
 		background-color: #ffffff;
@@ -7,7 +13,40 @@
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #000000;
-		color: #ffffff;
+		background-color: #282828;
+		color: #ebdbb2;
 	}
+	h1 {
+		color: #cc241d;
+	}
+	a {
+		color: #83a598;
+	}
+}
+
+body {
+	margin: 0% 60% 0% 10%;
+}
+
+html {
+	display: flex;
+	height: 100%;
+}
+
+#main_block {
+	height: 100%;
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+h1 {
+	font-family: Amiga4Ever;
+	font-size: 4em;
+	margin-top: 0%;
 }
